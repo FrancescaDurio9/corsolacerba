@@ -1,0 +1,63 @@
+/************ GENERALE***********/
+a{
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	font-family: corbel, arial, sans-serif;
+	margin: 0;
+}
+#nav{
+	text-transform: uppercase;
+}
+
+.nav li{
+	text-align: center;
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+}
+.nav li:hover {
+	color: gold;
+}
+
+.nav{
+	font-style: italic;
+    background-color: orange;
+    list-style-type: none;
+	
+}
+.nav li a{
+	color: white; 
+}
+/*********HEADER********/
+ #header{
+background-color: gold;
+}
+h1{
+	font-size: 40px;
+	font-family: lucida sans,corbel, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 10px;
+   }
+    h2 {
+	font-family: lucida sans,corbel, sans-serif;
+	text-align: center;
+	margin: 3px;
+}
+h3{
+	font-family: cursive;
+}
+
+ /*********CONTENT********/
+ #content{ 
+ 	width: 600px;
+ 	margin: 30px auto;
+ 	
+ }
+#content h4{
+	border-bottom: gold solid 3px;
+}
